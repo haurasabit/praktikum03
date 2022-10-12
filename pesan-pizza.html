@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Pizza</title>
+</head>
+<body>
+    <h2>Black Goose Bistro | Pizza Delivery</h2>
+    <br>
+    <small>Our 12th wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour!</small>
+    <hr>
+    <br>
+    <br>
+
+<!--  MULAI ISI  -->
+
+<br>
+<form action="thankyou.html">
+<table>
+    <tr>
+        <td colspan="3">
+            <h3 align="center">Your Information</h3>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+             
+        </td>
+    </tr>
+
+
+    <tr>
+        <td>
+            <label for="name">Name</label>
+        </td>
+        <td>
+            <input type="text" name="nama" value="" size="40"/>       
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="address">Address</label>
+        </td>
+        <td>
+        <form action="registrasi.php" method="get">
+            <input type="text" name="address" value="" size="40"/>
+        </form>        
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="Telephone">Telephone</label>
+        </td>
+        <td>
+        <form action="registrasi.php" method="get">
+            <input type="number" name="Telephone" value="" size="40"/>
+        </form>        
+        </td>
+
+        <tr>
+            <td>
+                <label for="email">Email</label>
+            </td>
+            <td>
+            <form action="registrasi.php" method="get">
+                <input type="text" name="email" value="" size="40"/>
+            </form>        
+            </td>
+
+            <tr>
+                <td>
+                    <label for="">Delivery Distraction</label>
+                </td>
+                <td>
+                    <textarea id="instruction" cols="34" rows="5"></textarea>
+                </td>
+            </tr>
+        </tr>
+    </tr>
+</table>
+<br>
+<br>
+
+<!-- request pizza -->
+
+<fieldset>
+    <legend>
+        <h3>Design Your Favorite Pizza</h3>
+    </legend>
+
+    <h4>Crust (choose one)</h4>
+
+    <div>
+        <input type="radio" id="Classic White" name="crust">
+        <label for="Classic White">Classic White</label>
+    </div>
+
+    <div>
+        <input type="radio" id="Multigrain" name="crust">
+        <label for="Multigrain">Multigrain</label>
+    </div>
+
+    <div>
+        <input type="radio" id="Una Melt" name="crust">
+        <label for="Una Melt">Una Melt</label>
+    </div>
+
+    <div>
+        <input type="radio" id="Cheese" name="crust">
+        <label for="Cheese">Cheese</label>
+    </div>
+
+    <div>
+        <input type="radio" id="Meat-lovers" name="crust">
+        <label for="Meat-lovers">Meat-lovers</label>
+    </div>
+
+<!-- TOPPING -->
+    <h4>Topping (Choose as many as you want) :</h4>
+
+    <div>
+        <input type="checkbox" id="White-sauce">
+        <label for="white-sauce">White-sauce</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="mozarella">
+        <label for="mozarella">mozarella</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="pepperoni">
+        <label for="pepperoni">Pepperoni</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="mushroom">
+        <label for="mushroom">Mushroom</label>
+    </div>
+
+    <h4>Number</h4>
+    <label for="manypizzas">How Many Pizzas</label>
+    <input type="number" name="" id="manypizzas">
+
+    <br>
+    <br><br>
+
+    <div>
+        <input type="submit" value="Bring me a Pizza!">
+        <input type="reset" value="reset my order">
+    </div>
+
+    <br>
+</fieldset>
+
+<br>
+
+
+</form>
+</body>
+</html>
